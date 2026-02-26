@@ -1,0 +1,13 @@
+[package]
+name = "my-rust-app"
+version = "0.1.0"
+edition = "2021"
+
+# This defines the binary that "cargo run" will execute
+[[bin]]
+name = "app"
+path = "src/main.rs"
+
+[dependencies]
+# Add any crates you need here, for example:
+# serde = { version = "1.0", features = ["derive"] }

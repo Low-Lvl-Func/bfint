@@ -1,0 +1,6 @@
+# The build directory where Rust stores compiled binaries and artifacts
+/target/
+
+
+.env
+/vendor/

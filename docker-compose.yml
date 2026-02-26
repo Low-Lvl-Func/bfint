@@ -1,0 +1,13 @@
+services:
+  app:
+    image: rust:latest
+    stdin_open: true # Allows you to interact with the app
+    tty: true        # Allocates a virtual terminal
+    volumes:
+      - .:/usr/src/app
+      - target_cache:/usr/src/app/target
+    working_dir: /usr/src/app
+    command: cargo run
+
+volumes:
+  target_cache:
