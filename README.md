@@ -1,7 +1,7 @@
 # bfint
-Brainfukk interpreter using rust power
+Brainfukk interpreter using the power of rust
 
-
+To run this you need docker compose installed.
 
 ### Examples:
 
